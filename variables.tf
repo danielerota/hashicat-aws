@@ -7,11 +7,12 @@
 
 variable "prefix" {
   description = "This prefix will be included in the name of most resources."
+  default = "daniele"
 }
 
 variable "region" {
   description = "The region where the resources are created."
-  default     = "us-east-1"
+  default     = "eu-central-1"
 }
 
 variable "address_space" {
